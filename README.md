@@ -24,6 +24,7 @@ curl localhost:5000/product_lookup/
 curl localhost:5000/product_lookup/?inventory_check
 ```
 **Product specific lookup for 1 element with title specified:**
+**Replace the 'Strawberry' with the product title you want to search for**
 ```
 curl localhost:5000/product_lookup/Strawberry/
 curl localhost:5000/product_lookup/Strawberry/?inventory_check
@@ -31,7 +32,10 @@ curl localhost:5000/product_lookup/Strawberry/?inventory_check
 
 **In terms of bunus features, I implemented "Shopping cart system" as well as making the API secure with user login authentification. Security feature with login username and password requirement only enabled for purchase items and complete cart. Use the command "with security feature implemented".**
 
+**Note: replace the '5' with the amount you want to set, and replace the 'Strawberry' with the product you want for all following commands**
+
 **Purchase without login info (will return no authentification from system): Need to specify amount to be purchased. The product type for chase is specified at the end of the URL**
+
 ```
 curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/product_purchase/Strawberry/
 ```
