@@ -10,7 +10,7 @@ pip3 install flask-restful
 # Run the following command on 1 terminal with the above dependencies set up: This will start the server on localhost:5000
 python shopify_backend.py
 
-# open up a new terminal and run these commands for each functionality:
+# After the server has been started, open up a new terminal and run these commands for each functionality:
 
 # Note that the ?inventory_check is the optional argument for whether to return items with 0 inventory
 # Product general lookup:
