@@ -1,5 +1,4 @@
-# shopify_backend
-Shopify Backend Developer Challenge
+# Shopify Backend Developer Challenge
 
 # dependencies:Please have these setup before running the python script with the server side web api
 # Please also have python 3 set up
