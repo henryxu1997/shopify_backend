@@ -29,6 +29,8 @@ curl localhost:5000/product_lookup/Strawberry/
 curl localhost:5000/product_lookup/Strawberry/?inventory_check
 ```
 
+**In terms of bunus features, I implemented "Shopping cart system" as well as making the API secure with user login authentification. Security feature with login username and password requirement only enabled for purchase items and complete cart. Use the command "with security feature implemented".**
+
 **Purchase without login info (will return no authentification from system): Need to specify amount to be purchased. The product type for chase is specified at the end of the URL**
 ```
 curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/product_purchase/Strawberry/
@@ -55,5 +57,3 @@ curl -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complet
 ```
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complete_cart/
 ```
-
-**Security feature with login username and password requirement only enabled for purchase items and complete cart. Use the command "with security feature implemented".**
