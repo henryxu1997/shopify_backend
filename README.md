@@ -10,7 +10,7 @@ pip3 install flask-httpauth
 pip3 install flask-restful
 ```
 
-**Run the following command on 1 terminal with the above dependencies set up: This will start the server on localhost:5000**
+**Download the python script in this repo, and run the following command on 1 terminal with the above dependencies set up: This will start the server on localhost:5000**
 ```
 python shopify_backend.py
 ```
