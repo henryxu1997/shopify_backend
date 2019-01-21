@@ -1,7 +1,8 @@
 # Shopify Backend Developer Challenge
 
 **Dependencies:Please have these setup before running the python script with the server side web api**
-Please also have python 3 set up
+
+**Please also have python 3 set up**
 ```
 virtualenv flask
 pip3 install flask
@@ -15,7 +16,7 @@ python shopify_backend.py
 ```
 **After the server has been started, open up a new terminal and run these commands for each functionality:**
 
-**Note that the ?inventory_check is the optional argument for whether to return items with 0 inventory**
+Note that the **?inventory_check** is the optional argument for whether to return items with 0 inventory
 
 **Product general lookup:**
 ```
@@ -38,7 +39,7 @@ curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' ht
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/product_purchase/Strawberry/
 ```
 
-**Add to cart: **
+**Add to cart:**
 ```
 curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/add_to_cart/Strawberry/
 ```
