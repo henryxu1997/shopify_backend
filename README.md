@@ -18,7 +18,7 @@ python shopify_backend.py
 
 Note that the **?inventory_check** is the optional argument for whether to return items with 0 inventory
 
-**Product general lookup:**
+**Product general lookup that returns all products:**
 ```
 curl localhost:5000/product_lookup/
 curl localhost:5000/product_lookup/?inventory_check
