@@ -1,4 +1,4 @@
-# Shopify Backend Developer Challenge
+# Shopify Backend Developer Intern Summer 2019 Challenge for Henry Xu
 
 **Dependencies: Please have these setup before running the python script with the server side web api**
 
