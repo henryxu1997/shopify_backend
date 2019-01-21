@@ -2,15 +2,12 @@
 
 **Dependencies:Please have these setup before running the python script with the server side web api**
 Please also have python 3 set up
-
+'''
 virtualenv flask
-
 pip3 install flask
-
 pip3 install flask-httpauth
-
 pip3 install flask-restful
-
+'''
 
 **Run the following command on 1 terminal with the above dependencies set up: This will start the server on localhost:5000**
 
