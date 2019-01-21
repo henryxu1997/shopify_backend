@@ -1,6 +1,6 @@
 # Shopify Backend Developer Challenge
 
-**Dependencies:Please have these setup before running the python script with the server side web api**
+**Dependencies: Please have these setup before running the python script with the server side web api**
 
 **Please also have python 3 set up**
 ```
@@ -34,7 +34,7 @@ curl localhost:5000/product_lookup/Strawberry/?inventory_check
 curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/product_purchase/Strawberry/
 ```
 
-**with security features implemented**
+**with security features implemented:**
 ```
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/product_purchase/Strawberry/
 ```
@@ -51,7 +51,7 @@ curl -i -H "Content-Type: application/json" -X PUT -d '{"delete_amount":5}' http
 ```
 curl -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complete_cart/
 ```
-**with security feature implemented**
+**with security feature implemented:**
 ```
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complete_cart/
 ```
