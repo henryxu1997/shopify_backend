@@ -57,3 +57,20 @@ curl -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complet
 ```
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complete_cart/
 ```
+**The current test data include the following, with title, price, and inventory count of data. I did not set up a database as the focus of this task to be able to handle all the requests, and the data that I made are sufficient for this project.**
+```
+products = [
+    {
+        'id': 1,
+        'title': 'Chocolate',
+        'price': 5.0, 
+        'inventory_count': 0
+    },
+    {
+        'id': 2,
+        'title': 'Strawberry',
+        'price': 7.5,
+        'inventory_count': 35
+    }
+]
+```
