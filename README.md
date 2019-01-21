@@ -78,3 +78,5 @@ products = [
     }
 ]
 ```
+
+**The screenshots folder include screenshots of the server in action and how it handles various requests**
