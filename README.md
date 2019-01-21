@@ -38,21 +38,21 @@ curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' ht
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/product_purchase/Strawberry/
 ```
 
-# Add to cart: 
+**Add to cart: **
 ```
 curl -i -H "Content-Type: application/json" -X PUT -d '{"purchase_amount":5}' http://localhost:5000/add_to_cart/Strawberry/
 ```
-# Delete from cart:
+**Delete from cart:**
 ```
 curl -i -H "Content-Type: application/json" -X PUT -d '{"delete_amount":5}' http://localhost:5000/delete_from_cart/Strawberry/
 ```
-# Complete cart without login info (will return no authentification from system):
+**Complete cart without login info (will return no authentification from system):**
 ```
 curl -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complete_cart/
 ```
-# with security feature implemented
+**with security feature implemented**
 ```
 curl -u Henry:Xu -i -H "Content-Type: application/json" -X PUT http://localhost:5000/complete_cart/
 ```
 
-# Security feature with login username and password requirement only enabled for purchase items and complete cart. Use the command "with security feature implemented".
+**Security feature with login username and password requirement only enabled for purchase items and complete cart. Use the command "with security feature implemented".**
